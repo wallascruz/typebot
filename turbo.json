@@ -27,7 +27,10 @@
       "outputs": ["build/**"],
       "outputMode": "new-only"
     },
-    "build:env": {
+    "build:env:vercel": {
+      "cache": false
+    },
+    "build:env:local": {
       "cache": false
     },
     "api:generate": {

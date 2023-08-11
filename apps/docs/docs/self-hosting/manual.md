@@ -50,9 +50,6 @@ pnpm install
 
 ```sh
 pnpm run build:apps
-# or build them separately
-pnpm run build:builder
-pnpm run build:viewer
 ```
 
 :::note
